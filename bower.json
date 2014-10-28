@@ -1,0 +1,4 @@
+{	
+	"name": "angular-lab",
+	"dependencies": {"angular": "1.2.26"}
+}
