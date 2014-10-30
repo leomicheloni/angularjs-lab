@@ -9,6 +9,6 @@ How to start?
 
 Install dependencies:
 
-run bower install in this directory
+run `bower install` in this directory
 
 ready!
