@@ -25,6 +25,10 @@ Ejemplos
 7. [Ejemplo 7](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo7/index.html) - Lista simple.
 8. [Ejemplo 8](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo8/index.html) - Lista con modelo en el controller.
 9. [Ejemplo 9](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo9/index.html) - Lista con objetos y controller.
+10. [Ejemplo 10](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo10/index.html) - Permite agregar a la lista.
+11. [Ejemplo 11](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo11/index.html) - Permite agregar a la lista y borra el input box.
+12. [Ejemplo 12](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo12/index.html) - Permite quitar de la lista.
+13. [Ejemplo 13](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo13/index.html) - Ejemplo de lista con formatter.
 
 
 
