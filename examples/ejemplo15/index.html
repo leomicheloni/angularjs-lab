@@ -1,0 +1,12 @@
+<html ng-app="miapp">
+<head>
+<link rel="stylesheet" href="../lib/bootstrap/dist/css/bootstrap.css" />
+    <script src="../lib/angular/angular.min.js"></script>
+    <script src="./app.js"></script>
+  </head>
+  <body ng-controller="CountryCtrl">
+    <ul>
+      <li ng-repeat="country in countries">{{country.name}} - population {{country.population | number}}</li>
+    </ul>
+  </body>
+</html>
