@@ -29,11 +29,11 @@ Ejemplos
 11. [Ejemplo 11](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo11/index.html) - Permite agregar a la lista y borra el input box.
 12. [Ejemplo 12](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo12/index.html) - Permite quitar de la lista.
 13. [Ejemplo 13](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo13/index.html)  -Lista con formatter.
-14. [Ejemplo 14](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo14/index.html) - Lista de paises usando un archivo externo.
-15. [Ejemplo 15](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo15/index.html) - Lista de paises con filtro.
-16. [Ejemplo 16](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo16/index.html) - Lista y filtro con regionalización.
-17. [Ejemplo 17](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo17/index.html) - Lista en una tabla.
-18. [Ejemplo 18](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo18/index.html) - Lista en una tabla con posiblidad de remover.
+14. [Ejemplo 14](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo14/) - Lista de paises usando un archivo externo.
+15. [Ejemplo 15](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo15/) - Lista de paises con filtro.
+16. [Ejemplo 16](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo16/) - Lista y filtro con regionalización.
+17. [Ejemplo 17](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo17/) - Lista en una tabla.
+18. [Ejemplo 18](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo18/) - Lista en una tabla con posiblidad de remover.
 
 
 
