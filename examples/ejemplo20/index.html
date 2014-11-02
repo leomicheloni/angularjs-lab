@@ -1,0 +1,21 @@
+<html ng-app="miapp">
+<head>
+<link rel="stylesheet" href="../lib/bootstrap/dist/css/bootstrap.css" />
+    <script src="../lib/angular/angular.min.js"></script>
+	<script src="https://code.angularjs.org/1.2.5/i18n/angular-locale_es-ar.js"></script>	
+    <script src="./app.js"></script>
+  </head>
+  <body ng-controller="CountryCtrl">
+	<table class="table">
+		<thead>
+		<td><a ng-click="predicate = 'name'" href="">Name</a></td>
+		<td><a ng-click="predicate = 'population'" href="">Population</a></td>
+		</thead>
+		<tr ng-repeat="country in countries | orderBy:predicate">
+			<td>{{country.name}}</td>
+			<td>{{country.population | number}}</td>
+			<td><a href="" ng-click="remove(country)">Remove</a></td>
+		</tr>
+	</table>
+  </body>
+</html>

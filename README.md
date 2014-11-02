@@ -28,12 +28,15 @@ Ejemplos
 10. [Ejemplo 10](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo10/index.html) - Permite agregar a la lista.
 11. [Ejemplo 11](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo11/index.html) - Permite agregar a la lista y borra el input box.
 12. [Ejemplo 12](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo12/index.html) - Permite quitar de la lista.
-13. [Ejemplo 13](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo13/index.html)  -Lista con formatter.
+13. [Ejemplo 13](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo13/index.html)  -Lista con filtro para números.
 14. [Ejemplo 14](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo14/) - Lista de paises usando un archivo externo.
 15. [Ejemplo 15](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo15/) - Lista de paises con filtro.
 16. [Ejemplo 16](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo16/) - Lista y filtro con regionalización.
 17. [Ejemplo 17](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo17/) - Lista en una tabla.
 18. [Ejemplo 18](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo18/) - Lista en una tabla con posiblidad de remover.
+19. [Ejemplo 19](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo19/) - Lista en una tabla con ordenamiento.
+20. [Ejemplo 20](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo20/) - Lista en una tabla con ordenamiento con un filtro.
+21. [Ejemplo 21](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo21/) - Lista en una tabla con ordenamiento y reversa.
 
 
 
