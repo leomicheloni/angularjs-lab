@@ -37,6 +37,8 @@ Ejemplos
 19. [Ejemplo 19](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo19/) - Lista en una tabla con ordenamiento.
 20. [Ejemplo 20](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo20/) - Lista en una tabla con ordenamiento con un filtro.
 21. [Ejemplo 21](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo21/) - Lista en una tabla con ordenamiento y reversa.
+22. [Ejemplo 22](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo22/) - Lista con filtro.
+23. [Ejemplo 23](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo23/) - Lista con filtro especificando una propiedad.
 
 
 
