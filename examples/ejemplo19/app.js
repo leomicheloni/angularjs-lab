@@ -22,12 +22,6 @@ miapp.controller('CountryCtrl', function ($scope) {
 		}
 	];
 	
-	$scope.order = function(predicate){
-		$scope.countries = $scope.countries.sort(function(a, b){
-			return a[predicate] > b[predicate];
-		});
-	};
-	
 	$scope.remove = function (country){
 		var i = $scope.countries.indexOf(country);
 		$scope.countries.splice(i, 1);

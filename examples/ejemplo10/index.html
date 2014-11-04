@@ -6,25 +6,17 @@
 		var module = angular.module("miapp", []);
 		
 		module.controller("miController", function miController($scope){
-			$scope.names = ["juan", "pedro", "pablo"];
-			
-			$scope.add = function(){
-				$scope.names.push($scope.newName);
-			};
-		
+			$scope.people = [
+				{name: "juan", lastName: "perez"},
+				{name: "jose", lastName: "gomez"},
+				{name: "pedro", lastName: "gimenez"},
+			];
 		});
-		
-		
 	</script>
 </head>
 <body ng-controller="miController">
 	<ul>
-		<li ng-repeat="name in names">{{name}}</li>
+		<li ng-repeat="person in people">{{person.name}}, {{person.lastName}}</li>
 	</ul>
-	
-	<form ng-submit="add()">
-		<input type="text" ng-model="newName" />
-		<input type="submit" value="Add" />
-	</form>
 </body>
 </html>

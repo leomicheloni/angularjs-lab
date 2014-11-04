@@ -12,7 +12,7 @@
 		<td><a ng-click="predicate = 'name'; reverse = !reverse" href="">Name</a></td>
 		<td><a ng-click="predicate = 'population'; reverse = !reverse" href="">Population</a></td>
 		</thead>
-		<tr ng-repeat="country in countries | filter: {name: searchText} | orderBy:predicate:reverse">
+		<tr ng-repeat="country in countries | filter: searchText | orderBy:predicate:reverse">
 			<td>{{country.name}}</td>
 			<td>{{country.population | number}}</td>
 			<td><a href="" ng-click="remove(country)">Remove</a></td>

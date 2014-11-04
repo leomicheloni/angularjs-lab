@@ -2,11 +2,21 @@
 <head>
 <link rel="stylesheet" href="../lib/bootstrap/dist/css/bootstrap.css" />
     <script src="../lib/angular/angular.min.js"></script>
-    <script src="./app.js"></script>
-  </head>
-  <body ng-controller="CountryCtrl">
-    <ul>
-      <li ng-repeat="country in countries">{{country.name}} - population {{country.population}}</li>
-    </ul>
-  </body>
+	<script type="text/javascript">
+		var module = angular.module("miapp", []);
+		
+		module.controller("miController", function miController($scope){
+			$scope.people = [
+				{name: "juan", lastName: "perez"},
+				{name: "jose", lastName: "gomez"},
+				{name: "pedro", lastName: "gimenez"},
+			];
+		});
+	</script>
+</head>
+<body ng-controller="miController">
+	<ul>
+		<li ng-repeat="person in people">{{person | json}}</li>
+	</ul>
+</body>
 </html>

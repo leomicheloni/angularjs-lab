@@ -8,10 +8,10 @@
   <body ng-controller="CountryCtrl">
 	<table class="table">
 		<thead>
-		<td><a ng-click="predicate = 'name'" href="">Name</a></td>
-		<td><a ng-click="predicate = 'population'" href="">Population</a></td>
+		<td><a ng-click="order('name')" href="">Name</a></td>
+		<td><a ng-click="order('population')" href="">Population</a></td>
 		</thead>
-		<tr ng-repeat="country in countries | orderBy:predicate">
+		<tr ng-repeat="country in countries">
 			<td>{{country.name}}</td>
 			<td>{{country.population | number}}</td>
 			<td><a href="" ng-click="remove(country)">Remove</a></td>

@@ -21,9 +21,4 @@ miapp.controller('CountryCtrl', function ($scope) {
 			"population" : 17819054
 		}
 	];
-	
-	$scope.remove = function (country){
-		var i = $scope.countries.indexOf(country);
-		$scope.countries.splice(i, 1);
-	};	
 });

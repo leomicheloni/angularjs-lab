@@ -1,6 +1,6 @@
 var miapp = angular.module('miapp', []);
 
-miapp.controller('CountryCtrl', function ($scope) {
+miapp.controller('CountryCtrl', function ($scope, $locale) {
 	$scope.countries = [{
 			"name" : "China",
 			"population" : 1359821000

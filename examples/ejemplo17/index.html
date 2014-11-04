@@ -6,15 +6,8 @@
     <script src="./app.js"></script>
   </head>
   <body ng-controller="CountryCtrl">
-	<table class="table">
-		<thead>
-		<td>Name</td>
-		<td>Population</td>
-		</thead>
-		<tr ng-repeat="country in countries">
-			<td>{{country.name}}</td>
-			<td>{{country.population | number}}</td>
-		</tr>
-	</table>
+    <ul>
+      <li ng-repeat="country in countries">{{country.name}} - population {{country.population | number}}</li>
+    </ul>
   </body>
 </html>

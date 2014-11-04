@@ -1,14 +1,12 @@
-<html ng-app="miapp">
+<html ng-app>
 <head>
 <link rel="stylesheet" href="../lib/bootstrap/dist/css/bootstrap.css" />
-    <script src="../lib/angular/angular.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.1/angular.min.js"></script>
 	<script type="text/javascript">
-		var module = angular.module("miapp", []);
-		
-		module.controller("miController", function miController($scope){
+		function miController($scope){
 			$scope.name = "Juan";
 			$scope.lastName = "Perez";
-		});
+		};
 	</script>
 </head>
 <body ng-controller="miController">

@@ -6,17 +6,13 @@
 		var module = angular.module("miapp", []);
 		
 		module.controller("miController", function miController($scope){
-			$scope.people = [
-				{name: "juan", lastName: "perez"},
-				{name: "jose", lastName: "gomez"},
-				{name: "pedro", lastName: "gimenez"},
-			];
+			$scope.names = ["juan", "pedro", "pablo"];
 		});
 	</script>
 </head>
 <body ng-controller="miController">
 	<ul>
-		<li ng-repeat="person in people">{{person.name}}, {{person.lastName}}</li>
+		<li ng-repeat="name in names">{{name}}</li>
 	</ul>
 </body>
 </html>

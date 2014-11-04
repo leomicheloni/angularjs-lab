@@ -21,4 +21,5 @@ miapp.controller('CountryCtrl', function ($scope) {
 			"population" : 17819054
 		}
 	];
+
 });

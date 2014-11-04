@@ -13,11 +13,6 @@
 				$scope.newName = '';
 			};
 		
-			$scope.remove = function(name){
-				var i = $scope.names.indexOf(name);
-				$scope.names.splice(i,1);
-			};
-		
 		});
 		
 		
@@ -25,9 +20,7 @@
 </head>
 <body ng-controller="miController">
 	<ul>
-		<li ng-repeat="name in names">{{name}}
-		<a href="" ng-click="remove(name)">Quitar</a>
-		</li>
+		<li ng-repeat="name in names">{{name}}</li>
 	</ul>
 	
 	<form ng-submit="add()">
