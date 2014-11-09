@@ -46,3 +46,4 @@ Ejemplos
 28. [Ejemplo 28](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo28/) - Usando setInterval
 29. [Ejemplo 29](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo29/) - Ejemplo de $watch para forzar cambios
 30. [Ejemplo 30](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo30/) - Usando $interval
+31. [Ejemplo 31](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo31/) - Usando $interpolate
