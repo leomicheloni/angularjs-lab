@@ -49,3 +49,5 @@ Ejemplos
 31. [Ejemplo 31](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo31/) - Usando $interpolate
 32. [Ejemplo 32](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo32/) - Usando $http
 33. [Ejemplo 33](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo33/) - Usando un servicio para llamadas remota
+34. [Ejemplo 34](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo34/) - Ejemplo de jsonp
+
