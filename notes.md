@@ -31,5 +31,16 @@ Routing
 Templating
 DataBinding
 
+rutas
+simple
+default
+template hardcode
+template remoto
+
+http
+
+servicios
+son singletons
+
 
 Ejemplos paso a paso

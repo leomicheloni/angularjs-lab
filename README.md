@@ -43,3 +43,6 @@ Ejemplos
 25. [Ejemplo 25](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo25/) - Herancia de controllers, tomado [angular developer guide](https://docs.angularjs.org/guide/controller)
 26. [Ejemplo 26](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo26/) - Ejemplo de servicio simple.
 27. [Ejemplo 27](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo27/) - Servicio utilizando $window
+28. [Ejemplo 28](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo28/) - Usando setInterval
+29. [Ejemplo 29](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo29/) - Ejemplo de $watch para forzar cambios
+30. [Ejemplo 30](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo30/) - Usando $interval
