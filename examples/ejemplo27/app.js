@@ -8,13 +8,13 @@ app.controller('MyController', function ($scope, notify) {
 	
 });
 
-app.factory('notify', function ($window) {
+app.factory('notify', function () {
 	var msgs = [];
 	
 	return function (msg) {
 		msgs.push(msg);
 		if (msgs.length == 3) {
-			$window.alert(msgs.join("\n"));
+			alert(msgs.join("\n"));
 			msgs = [];
 		}
 	};

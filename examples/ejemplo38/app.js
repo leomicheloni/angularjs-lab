@@ -6,13 +6,8 @@ app.config(function($routeProvider){
 		templateUrl: "list.tmpl"
 	});
 	
-	$routeProvider.when("/404",{
-		templateUrl: "notfound.tmpl",
-		controller: "notFoundController"
-	});
-
 	$routeProvider.otherwise({
-		redirectTo: "/404"
+		templateUrl: "notfound.tmpl"
 	});
 });
 
@@ -20,9 +15,6 @@ app.controller("mainController", function($scope, usuarios){
 	usuarios.get().success(function(data){
 		$scope.nombres = data;
 	});
-});
-
-app.controller("notFoundController", function(){
 });
 
 app.factory("usuarios", function($http){

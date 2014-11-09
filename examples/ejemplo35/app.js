@@ -1,13 +1,6 @@
-var app = angular.module("miapp", ["ngRoute"]);
+var app = angular.module("miapp", []);
 
-app.config(function($routeProvider){
-	$routeProvider.when("/", {
-		controller: "mainController",
-		template: "<ul><li ng-repeat='nombre in nombres'>{{nombre}}</li></ul>"
-	});
-});
-
-app.controller("mainController", function($scope, usuarios){	
+app.controller("mainController", function($scope, usuarios){
 	usuarios.get().success(function(data){
 		$scope.nombres = data;
 	});

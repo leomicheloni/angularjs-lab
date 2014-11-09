@@ -6,8 +6,11 @@
 		<script type="text/javascript" src="app.js"></script>	
 	</head>
 	<body>		
-		<div ng-controller="mainController">
-			<label for="">Current Time</label> <span >{{time | date:'HH:mm:ss'}}</span>
+		<div id="simple" ng-controller="MyController">
+			<p>Let's try this simple notify service, injected into the controller...</p>
+			<input ng-init="message='test'" ng-model="message" >
+			<button ng-click="callNotify(message);">NOTIFY</button>
+			<p>(you have to click 3 times to see an alert)</p>
 		</div>
 	</body>
 </html>

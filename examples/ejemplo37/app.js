@@ -5,10 +5,6 @@ app.config(function($routeProvider){
 		controller: "mainController",
 		templateUrl: "list.tmpl"
 	});
-	
-	$routeProvider.otherwise({
-		templateUrl: "notfound.tmpl"
-	});
 });
 
 app.controller("mainController", function($scope, usuarios){	

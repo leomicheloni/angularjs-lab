@@ -1,9 +1,17 @@
 var app = angular.module('app', []);
 
-app.controller('mainController', function ($scope, $interval) {
+app.controller('mainController', function ($scope) {
 	$scope.time = +new Date();
 	
-	$interval(function(){
+	$scope.$watch('time', function(newValue, oldValue){
+		console.log(newValue);
+	});
+
+	
+	setInterval(function(){
 		$scope.time = +new Date;
-	}, 1000);	
+		$scope.$apply();
+	}, 1000);
+	
+	
 });

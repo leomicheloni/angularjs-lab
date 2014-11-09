@@ -1,6 +1,6 @@
-var app = angular.module("miapp", []);
-app.controller("mainController", function($scope, $http){
-	$http.get("data.json").success(function(data){
-		$scope.nombres = data;
-	});
+var app = angular.module('app', []);
+
+app.controller('mainController', function ($scope, $interpolate) {
+	var ex = $interpolate("mi nombre es: {{nombre}}");
+	console.log(ex({nombre: "juan"}));
 });

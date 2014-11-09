@@ -1,22 +1,12 @@
-var app = angular.module('app', []);
-
-app.controller('MyController', function ($scope, notify) {
-	
-	$scope.callNotify = function (msg) {
-		notify(msg);
-	};
-	
+var myApp = angular.module('app', []);
+myApp.controller('MainController', function($scope) {
+  $scope.timeOfDay = 'morning';
+  $scope.name = 'Nikki';
 });
-
-app.factory('notify', function () {
-	var msgs = [];
-	
-	return function (msg) {
-		msgs.push(msg);
-		if (msgs.length == 3) {
-			alert(msgs.join("\n"));
-			msgs = [];
-		}
-	};
-	
+myApp.controller('ChildController', function($scope) {
+  $scope.name = 'Mattie';
+});
+myApp.controller('GrandChildController', function($scope) {
+  $scope.timeOfDay = 'evening';
+  $scope.name = 'Gingerbread Baby';
 });
