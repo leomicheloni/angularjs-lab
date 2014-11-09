@@ -6,13 +6,13 @@ app.config(function($routeProvider){
 		templateUrl: "list.tmpl"
 	});
 	
-	$routeProvider.when("404",{
+	$routeProvider.when("/404",{
 		templateUrl: "notfound.tmpl",
 		controller: "notFoundController"
 	});
 
 	$routeProvider.otherwise({
-		redirectTo: "404"
+		redirectTo: "/404"
 	});
 });
 
