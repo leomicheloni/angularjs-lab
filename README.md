@@ -54,4 +54,5 @@ Ejemplos
 36. [Ejemplo 36](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo36/) - Ruta con template separado.
 37. [Ejemplo 37](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo37/) - Ruta con fallback.
 38. [Ejemplo 38](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo38/) - Redirect en caso de 404.
+39. [Ejemplo 39](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo38/) - Ruta con parámetros.
 
