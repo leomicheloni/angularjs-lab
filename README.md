@@ -42,12 +42,16 @@ Ejemplos
 24. [Ejemplo 24](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo24/) - Lista con filtro especificando una propiedad.
 25. [Ejemplo 25](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo25/) - Herancia de controllers, tomado [angular developer guide](https://docs.angularjs.org/guide/controller)
 26. [Ejemplo 26](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo26/) - Ejemplo de servicio simple.
-27. [Ejemplo 27](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo27/) - Servicio utilizando $window
-28. [Ejemplo 28](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo28/) - Usando setInterval
-29. [Ejemplo 29](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo29/) - Ejemplo de $watch para forzar cambios
-30. [Ejemplo 30](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo30/) - Usando $interval
-31. [Ejemplo 31](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo31/) - Usando $interpolate
-32. [Ejemplo 32](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo32/) - Usando $http
-33. [Ejemplo 33](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo33/) - Usando un servicio para llamadas remota
-34. [Ejemplo 34](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo34/) - Ejemplo de jsonp
+27. [Ejemplo 27](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo27/) - Servicio utilizando $window.
+28. [Ejemplo 28](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo28/) - Usando setInterval.
+29. [Ejemplo 29](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo29/) - Ejemplo de $watch para forzar cambios.
+30. [Ejemplo 30](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo30/) - Usando $interval.
+31. [Ejemplo 31](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo31/) - Usando $interpolate.
+32. [Ejemplo 32](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo32/) - Usando $http.
+33. [Ejemplo 33](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo33/) - Usando un servicio para llamadas remota.
+34. [Ejemplo 34](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo34/) - Ejemplo de jsonp.
+35. [Ejemplo 35](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo35/) - Ruta simple.
+36. [Ejemplo 36](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo36/) - Ruta con template separado.
+37. [Ejemplo 37](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo37/) - Ruta con fallback.
+38. [Ejemplo 38](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo38/) - Redirect en caso de 404.
 
