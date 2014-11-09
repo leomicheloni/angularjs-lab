@@ -40,8 +40,6 @@ Ejemplos
 22. [Ejemplo 22](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo22/) - Lista en una tabla con ordenamiento y reversa.
 23. [Ejemplo 23](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo23/) - Lista con filtro.
 24. [Ejemplo 24](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo24/) - Lista con filtro especificando una propiedad.
-
-
-
-
-
+25. [Ejemplo 25](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo25/) - Herancia de controllers, tomado [angular developer guide](https://docs.angularjs.org/guide/controller)
+26. [Ejemplo 26](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo26/) - Ejemplo de servicio simple.
+27. [Ejemplo 27](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo27/) - Servicio utilizando $window
