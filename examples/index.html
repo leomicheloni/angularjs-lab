@@ -19,15 +19,24 @@
 	</style>
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.1/angular.min.js"></script>
+	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.1/angular-route.min.js"></script>
 	<script type="text/javascript">
-			var app = angular.module("app1", []);
-			app.controller("mainController", function($scope, $http){
-									
-				$scope.change = function(value){
-					$scope.position+= value;
-					$scope.example = "ejemplo" + $scope.position + "/index.html";
-					this.loadSource();
-				};
+			var app = angular.module("app1", ["ngRoute"]);
+			
+			app.config(function($routeProvider){
+				$routeProvider.when("/", {
+					controller: "mainController",
+					templateUrl: "main.tmpl"
+				});
+				$routeProvider.when("/:id", {
+					controller: "mainController",
+					templateUrl: "main.tmpl"
+				});
+			});
+			
+			app.controller("mainController", function($scope, $http, $routeParams){
+			
+				$scope.position = parseInt($routeParams.id || 1);
 				
 				$scope.loadSource = function(){
 					$http.get($scope.example).success(function(data){
@@ -41,25 +50,24 @@
 						$scope.showjs = false;
 					});
 				};
+				
+				navigate = function(){
+					$scope.example = "ejemplo" + $scope.position + "/index.html";
+					$scope.loadSource();
+				};
+				
 
-				$scope.position = 1;
-				$scope.example = "ejemplo" + $scope.position + "/index.html";
-				$scope.loadSource();
+
+				navigate();
+
+
 			
 			})
 		
 	</script>
 	<title></title>
 </head>
-<body ng-controller="mainController">
+<body ng-view>
 	
-	<div>
-	<input type="button" value="Prev" ng-click="change(-1)"/>	
-	<input type="button" value="Next" ng-click="change(1)"/>	
-	<label for="">{{position}}</label>
-	</div>
-	<iframe frameborder="0" marginwidth="20px" marginheight="20px" width="1000" height="250" ng-src="{{example}}"></iframe>
-	<pre>{{code}}</pre>	
-	<pre ng-show="showjs">{{jscode}}</pre>
 </body>
 </html>
