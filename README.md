@@ -55,5 +55,11 @@ Ejemplos
 37. [Ejemplo 37](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo37/) - Ruta con template separado.
 38. [Ejemplo 38](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo38/) - Ruta con fallback.
 39. [Ejemplo 39](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo39/) - Redirect en caso de 404.
-40. [Ejemplo 40](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo38/) - Ruta con parámetros.
+40. [Ejemplo 40](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo40/) - Ruta con parámetros.
+41. [Ejemplo 41](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo41/) - Creación de directiva template.
+42. [Ejemplo 42](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo42/) - Creación de directiva con template separado.
+43. [Ejemplo 43](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo43/) - Creación de directiva con template función.
+44. [Ejemplo 44](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo44/) - Creación de directiva con template y restricción.
+45. [Ejemplo 45](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo45/) - Creación de directiva con $scope aislado.
+46. [Ejemplo 46](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo46/) - Directiva que modifica el DOM.
 
