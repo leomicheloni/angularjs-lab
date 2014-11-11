@@ -1,0 +1,1 @@
+uglifyjs app.js -o app.min.js -mt

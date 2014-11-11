@@ -64,4 +64,6 @@ Ejemplos
 46. [Ejemplo 46](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo46/) - Directiva que modifica el DOM.
 47. [Ejemplo 47](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo47/) - Expresión simple vs Javascript literal.
 48. [Ejemplo 48](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo48/) - Expresión one time.
+49. [Ejemplo 49](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo49/) - Ejemplo de problemas con minificación.
+50. [Ejemplo 50](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo50/) - Cómo utilizar correctamente la minificación.
 
