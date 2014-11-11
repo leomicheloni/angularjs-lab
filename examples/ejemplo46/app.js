@@ -1,4 +1,4 @@
-var app = angular.module("miapp", ["ngRoute"]);
+var app = angular.module("miapp");
 
 app.controller("mainController", function ($scope) {
 	$scope.usuario = {

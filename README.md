@@ -62,4 +62,6 @@ Ejemplos
 44. [Ejemplo 44](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo44/) - Creación de directiva con template y restricción.
 45. [Ejemplo 45](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo45/) - Creación de directiva con $scope aislado.
 46. [Ejemplo 46](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo46/) - Directiva que modifica el DOM.
+47. [Ejemplo 47](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo47/) - Expresión simple vs Javascript literal.
+48. [Ejemplo 48](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo48/) - Expresión one time.
 
