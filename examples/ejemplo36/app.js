@@ -16,7 +16,7 @@ app.controller("mainController", function($scope, usuarios){
 app.factory("usuarios", function($http){
 	return {
 		get: 	function() {
-		return $http.jsonp("http://localhost:3002/data.json?callback=JSON_CALLBACK");
+		return $http.get("data.json");
 		}
 	};
 });

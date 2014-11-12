@@ -14,7 +14,7 @@ Correr `bower install` en el directorio raíz del proyecto.
 Listo!
 
 Ejemplos
-========
+======
 
 1. [Ejemplo 1](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo1) - Angular Expression, primera aplicación con una expresión simple.
 2. [Ejemplo 2](https://github.com/leomicheloni/angularjs-lab/blob/master/examples/ejemplo2) - Modelo simple.
