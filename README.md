@@ -13,6 +13,10 @@ Si tenés Bower instalado:
 Correr `bower install` en el directorio raíz del proyecto.
 Listo!
 
+Para correr los ejemplos con el runner que uso en la presentación sólo ejecutar localmente:
+
+https://github.com/leomicheloni/angularjs-lab/blob/master/examples/index.html
+
 Ejemplos
 ======
 
