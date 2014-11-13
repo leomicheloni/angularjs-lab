@@ -13,6 +13,16 @@ Si tenés Bower instalado:
 Correr `bower install` en el directorio raíz del proyecto.
 Listo!
 
+Para correr el servidor estático (es necesario para los ejemplos con llamadas AJAX)
+
+`npm install http-server -g`
+
+luego ir al directrio raíz y ejecutar
+
+`http-server`
+
+[Documentación sobre NodeJs Http server](https://github.com/nodeapps/http-server)
+
 Para correr los ejemplos con el runner que uso en la presentación sólo ejecutar localmente:
 
 https://github.com/leomicheloni/angularjs-lab/blob/master/examples/index.html
