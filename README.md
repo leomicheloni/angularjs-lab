@@ -21,11 +21,11 @@ luego ir al directrio raíz y ejecutar
 
 `http-server`
 
+(por defecto corre en el puerto 8080, se puede cambiar agregando la opción -p 3030 por ejemplo)
+
 [Documentación sobre NodeJs Http server](https://github.com/nodeapps/http-server)
 
-Para correr los ejemplos con el runner que uso en la presentación sólo ejecutar localmente:
-
-https://github.com/leomicheloni/angularjs-lab/blob/master/examples/index.html
+El http-server va a listar los archivos, hacer click en la carpeta "examples" y luego sobre index.html y listo.
 
 Ejemplos
 ======
