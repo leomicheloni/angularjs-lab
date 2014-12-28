@@ -9,6 +9,11 @@
 			$scope.names = ["juan", "pedro", "pablo"];
 			
 			$scope.add = function(){
+				if ($scope.names.indexOf($scope.newName)>-1){
+					$scope.error = 'No se admiten duplicados';
+					return;
+				}
+				$scope.error = '';
 				$scope.names.push($scope.newName);
 			};
 		
@@ -21,10 +26,11 @@
 	<ul>
 		<li ng-repeat="name in names">{{name}}</li>
 	</ul>
-	
+
 	<form ng-submit="add()">
 		<input type="text" ng-model="newName" />
 		<input type="submit" value="Add" />
+        <span>{{error}}</span>
 	</form>
 </body>
 </html>
