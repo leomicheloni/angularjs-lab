@@ -4,6 +4,8 @@ app.config(function($routeProvider){
 	$routeProvider.when("/:nombre", {
 		controller: "mainController",
 		templateUrl: "main.tmpl"
+	}).when("/", {
+		template: "hola"
 	});
 });
 
