@@ -7,11 +7,7 @@ Ejemplo de AngularJs paso a paso.
 ¿Cómo empezar?
 =============
 
-Instalar dependencias:
-
-Si tenés Bower instalado:
-Correr `bower install` en el directorio raíz del proyecto.
-Listo!
+Esta es la versión offline, no es necesario tener nada extra instalado, las dependecias están copiadas localemente.
 
 Para correr el servidor estático (es necesario para los ejemplos con llamadas AJAX)
 
