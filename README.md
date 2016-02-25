@@ -27,6 +27,8 @@ luego ir al directrio raíz y ejecutar
 
 El http-server va a listar los archivos, hacer click en la carpeta "examples" y luego sobre index.html y listo.
 
+Para usar la versión "offline" (sin bower y demás) [ir a este link](https://github.com/leomicheloni/angularjs-lab/tree/offline)
+
 Ejemplos
 ======
 
